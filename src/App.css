@@ -1,6 +1,6 @@
 body {
 margin: 0;
-background-color: rgb(76, 74, 71);
+background-color: rgb(205, 142, 49);
 }
 
 nav {
@@ -22,6 +22,7 @@ nav {
 .logo {
   margin-right: 20px;
 }
-
-
+.footer {
+  background-color:blue ;
+}
 
