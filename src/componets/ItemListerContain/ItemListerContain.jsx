@@ -15,13 +15,17 @@ const ItemListerContain = ({ greeting }) => {
             })
             .catch(error => {
                 console.error(error)
-            });
+            })
     }, [categoryId])
 
     return (
         <div>
             <h1>{greeting}</h1>
-            <ItemList products={products} />
+            <h1>
+                Esta es una prueba
+
+            </h1>
+            <ItemList products={products}/>
         </div>
     )
 }
